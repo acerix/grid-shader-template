@@ -9,9 +9,8 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ig7tw"]
 shader = ExtResource("1_ig7tw")
-shader_parameter/position = Vector2(0, 0)
-shader_parameter/scale = 1.0
-shader_parameter/rotation = 0.0
+shader_parameter/band_freq = 0.6
+shader_parameter/band_value = 0.01
 
 [node name="Main" type="Control"]
 layout_mode = 3
